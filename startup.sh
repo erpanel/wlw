@@ -1,11 +1,11 @@
 #!/bin/bash
 
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get install git -y
-sudo apt-get install nodejs -y
-sudo apt-get install ffmpeg -y
-sudo apt-get install imagemagick -y
-sudo apt-get install npm
+apt-get update
+apt-get upgrade -y
+apt-get install git -y
+apt-get install nodejs -y
+apt-get install ffmpeg -y
+apt-get install imagemagick -y
+apt-get install npm
 npm install
 npm start
