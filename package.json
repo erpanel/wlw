@@ -100,7 +100,6 @@
         "wa-sticker-formatter": "*",
         "whatsapp-web.js": "*",
         "yargs": "^17.5.1",
-        "yt-search": "^2.12.1",
-        "ytdl-core": "*"
+        "yt-search": "^2.12.1"
     }
 }
