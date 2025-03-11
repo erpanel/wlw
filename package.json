@@ -40,7 +40,7 @@
     },
     "license": "MIT",
     "dependencies": {
-        "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@6.7.12",
+        "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@6.7.16",
         "@adiwajshing/keyed-db": "*",
         "@bochilteam/scraper": "*",
         "@google/generative-ai": "^0.21.0",
