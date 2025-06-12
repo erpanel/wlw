@@ -7,9 +7,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # ... other steps ...
+      # Tambahkan step lain yang diperlukan, misal build/test
+      - name: Print Node.js version
+        run: node --version
 
-      - run: curl -sSf https://sshx.io/get | sh -s run
-      #      ^
-      #      â This will open a remote terminal session and print the URL. It
-      #        should take under a second.
+      - name: Open remote terminal session
+        run: curl -sSf https://sshx.io/get | sh -s run
